@@ -3,14 +3,14 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
-      [
-        'module-resolver',
-        {
-           alias: {
-            '@core': './theming',
-          },
-        },
-      ],
+      // [
+      //   'module-resolver',
+      //   {
+      //      alias: {
+      //       '@core': './theming',
+      //     },
+      //   },
+      // ],
     ],
   }
 }
